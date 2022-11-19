@@ -1,0 +1,55 @@
+.home {
+    display: flex;
+
+
+
+
+    .home-left {
+        padding-inline: 8vw;
+        min-height: calc(100vh - 88px);
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+
+        h1 {
+            font-weight: 400;
+            font-size: 2.5rem;
+
+        }
+        p{
+            font-size: 300;
+            color:#BEBFC4;
+            line-height: 1.3rem;
+        }
+        button{
+            background:linear-gradient(45deg, #32D268,#2BB9D1);
+            padding: 1rem;
+            color: white;
+            border-radius: 2rem;
+            border: none;
+            padding-inline: 2.5rem;
+            cursor: pointer;
+
+        }
+    }
+
+    .home-right {
+        min-height: calc(100vh - 88px);
+        width: 70%;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            height: 45rem;
+            width: 60rem;
+            right: -15rem;
+            top: -10rem;
+
+
+        }
+    }
+}

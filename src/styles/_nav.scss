@@ -1,0 +1,38 @@
+nav {
+    padding-inline: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 88px;
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .center{
+        ul{
+            display: flex;
+            gap:1.5rem;
+            list-style-type: none;
+            li{
+                font-size: 1.1rem;
+                font-weight: 400;
+                color:#BEBFC4;
+            }
+            
+
+        }
+    }
+    
+        button{
+            background: linear-gradient(45deg,#32D268,#2BB9D1 );
+            font-weight: 700;
+            padding: 1rem;
+            border-radius: 2rem;
+            padding-inline: 2.5rem;
+            border: 0px;
+            color: white;
+            cursor: pointer;
+        }
+
+}
