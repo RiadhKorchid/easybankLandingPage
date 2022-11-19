@@ -4,6 +4,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     min-height: 88px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background-color: white;
     .left{
         display: flex;
         align-items: center;
