@@ -1,6 +1,6 @@
 import React from "react";
-import bgintro from "../images/bg-intro-desktop.svg"
-
+import bgintro from "../images/bg-intro-desktop.svg";
+import mockups from "../images/image-mockups.png"
 export default function(){
 
     return (
@@ -11,7 +11,8 @@ export default function(){
             <button> Request Invite</button>
         </div>
         <div className="home-right">
-            <img src={bgintro}/>
+            <img src={bgintro} className="bgintro"/>
+            <img src={mockups} className="mockups" />
         </div>
         </section>
     )

@@ -1,0 +1,47 @@
+.services-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-inline: 8vw;
+    h1{
+        font-weight: 400;
+        font-size: 3rem;
+    
+    }
+    h2{
+        font-size: 0.9rem;
+        font-weight: 300;
+        color:#838692; 
+        width: 55%;
+
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+        .service{
+            background-color:white;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            gap: 1.2rem;
+            width: 70%;
+            img{
+                height: 4rem;
+                width: 4rem;
+            }
+            h1{
+                font-weight: 400;
+                font-size: 1.1rem;
+            }
+            p{
+                line-height: 1.2rem;
+                font-weight: 300;
+                color: #838692;
+                font-size: 0.8rem;
+            }
+
+        }
+
+    }
+}

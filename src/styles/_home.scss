@@ -12,13 +12,13 @@
 
         h1 {
             font-weight: 400;
-            font-size: 2.5rem;
+            font-size: 3.5rem;
 
         }
         p{
             font-size: 300;
-            color:#BEBFC4;
-            line-height: 1.3rem;
+            color:#969FA2;
+            line-height: 1.5rem;
         }
         button{
             background:linear-gradient(45deg, #32D268,#2BB9D1);
@@ -36,16 +36,20 @@
         min-height: calc(100vh - 88px);
         width: 70%;
         position: relative;
-        overflow: hidden;
+    
 
-        img {
+        .bgintro {
             position: absolute;
             height: 45rem;
             width: 60rem;
             right: -15rem;
             top: -10rem;
-
-
+        }
+        .mockups{
+            position: absolute;
+            bottom: -4rem;
+            width:90%;
+            right: -7rem;
         }
     }
 }
