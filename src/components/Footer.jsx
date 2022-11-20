@@ -18,6 +18,7 @@ export default function () {
                     <FaInstagram className="icon" />
                 </div>
             </div>
+            <div className="spacebetween">
             <div className="footer-center">
                 <ul>
                     <li>About us</li>
@@ -32,7 +33,7 @@ export default function () {
                 <button>Request Invite</button>
                 <p>&copy; Easybank. All Rights Reserved</p>
             </div>
-
+            </div>
         </footer>
     )
 }

@@ -24,13 +24,14 @@ export default function () {
                 <button>Request Invite</button>
             </div>
 
-           <div className="div"> <ul className="mobile-list">
+         <ul className="mobile-list">
                 <li>Home</li>
                 <li>About</li>
                 <li>Contact</li>
                 <li>Blog</li>
                 <li>Careers</li>
-            </ul></div>
+            </ul>
+            
         </nav>
     )
 }
